@@ -1,0 +1,9 @@
+MIPS 一種搜尋算法: https://zhuanlan.zhihu.com/p/111502331
+DPR: https://arxiv.org/pdf/2004.04906.pdf
+
+methods:
+retriever算法
+https://zhuanlan.zhihu.com/p/675122082
+a retriever pη(z|x) with parameters η that returns (top-K truncated) distributions over text passages given a query x
+genearotor  a generator pθ(yi|x, z, y1:i−1) parametrize by θ that generates a current token based on a context of the previous i − 1 tokens y1:i−1, the original
+input x and a retrieved passage z.
